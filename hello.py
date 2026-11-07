@@ -1,4 +1,7 @@
 nama = input("Masukkan nama Anda: ")
 npm = input("Masukkan NPM Anda: ")
+quiz1 = input("Masukkan nilai quiz 1: ")
+quiz2 = input("Masukkan nilai quiz 2: ")
 print(f"Nama: {nama}")
 print(f"NPM: {npm}")
+print(f"rata-rata nilai quiz: {(float(quiz1) + float(quiz2)) / 2}")
